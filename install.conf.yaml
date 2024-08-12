@@ -1,0 +1,9 @@
+- clean: ["~"]
+
+- link:
+    ~/.config/bspwm:
+      path: .config/bspwm
+      create: true
+    ~/.config/sxhkd:
+      path: .config/sxhkd
+      create: true
