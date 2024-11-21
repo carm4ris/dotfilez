@@ -1,6 +1,7 @@
 [general]
 
 live_config_reload = true
+
 import = [
 	"~/.config/alacritty/themes/tokyo-night-storm.toml"
 ]
@@ -10,3 +11,15 @@ size = 10
 
 [font.normal]
 family = "JetbrainsMono Nerd Font"
+
+[scrolling]
+multiplier = 12
+
+[selection]
+save_to_clipboard = true
+
+[keyboard]
+bindings = [
+	{ key = "ArrowLeft", mods = "Alt", chars = "\u001bb" },
+	{ key = "ArrowRight", mods = "Alt", chars = "\u001bf" },
+]

@@ -1,3 +1,7 @@
+# dotfiles
+
+i use arch, btw 
+
 ## Todo
 
 - [ ] `bspwm` config
