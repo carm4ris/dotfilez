@@ -15,10 +15,6 @@ super + alt + equal
 
 ## Default config leftovers
 
-#
-# bspwm hotkeys
-#
-
 # close and kill
 super + {_,shift + }w
 	bspc node -{c,k}
