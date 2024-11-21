@@ -1,9 +1,13 @@
 - clean: ["~"]
 
 - link:
+    ~/.zshrc: .zshrc
     ~/.config/bspwm:
       path: .config/bspwm
       create: true
     ~/.config/sxhkd:
       path: .config/sxhkd
+      create: true
+    ~/.config/feh:
+      path: .config/feh
       create: true

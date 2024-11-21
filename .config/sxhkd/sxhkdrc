@@ -1,26 +1,23 @@
-#
-# wm independent hotkeys
-#
-
-# terminal emulator
 super + Return
 	alacritty
 
-# program launcher
 super + @space
 	rofi -show drun
 
-# make sxhkd reload its configuration files:
-super + Escape
-	pkill -USR1 -x sxhkd
+super + alt + 0
+	bspc wm -r # Reload bspwm
+
+super + alt + minus
+	pkill -USR1 -x sxhkd # Reload sxhkd
+
+super + alt + equal
+	bspc query -N -d | xargs -I % bspc node % -B # Equalize panels
+
+## Default config leftovers
 
 #
 # bspwm hotkeys
 #
-
-# quit/restart bspwm
-super + alt + {q,r}
-	bspc {quit,wm -r}
 
 # close and kill
 super + {_,shift + }w

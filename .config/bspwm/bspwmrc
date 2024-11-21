@@ -1,7 +1,7 @@
 #! /bin/sh
 
-## Set wallpaper
-feh --bg-scale ~/.dotfiles/feh/wallpaper.png
+## Wallpaper
+feh --bg-scale ~/.dotfiles/.config/feh/wallpaper.png
 
 ## Polybar
 $HOME/.config/polybar/launch.sh
@@ -11,7 +11,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 bspc monitor -d 1 2 3 4 5 6 7 8 9
 
 bspc config border_width         2
-bspc config window_gap          10
+bspc config window_gap          5
 
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
