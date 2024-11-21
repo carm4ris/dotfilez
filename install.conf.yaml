@@ -11,3 +11,9 @@
     ~/.config/feh:
       path: .config/feh
       create: true
+    ~/.config/alacritty:
+      path: .config/alacritty
+      create: true
+    ~/.config/lsd:
+      path: .config/lsd
+      create: true

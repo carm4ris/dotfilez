@@ -1,4 +1,5 @@
 alias reload='source ~/.zshrc' 
+alias ls='lsd'
 alias ll='ls -l'
 alias p='pwd'
 alias cls='clear'
