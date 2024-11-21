@@ -13,6 +13,7 @@ super + alt + minus
 super + alt + equal
 	bspc query -N -d | xargs -I % bspc node % -B # Equalize panels
 
+
 ## Default config leftovers
 
 # close and kill
