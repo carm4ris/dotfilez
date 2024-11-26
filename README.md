@@ -4,7 +4,7 @@ i use arch, btw
 
 ## Todo
 
-- [ ] `bspwm` config
+- [x] `bspwm` config
 
 ### `zsh`
 - [ ] `fzf` support for History search
