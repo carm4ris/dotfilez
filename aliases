@@ -3,3 +3,5 @@ alias ls='lsd'
 alias ll='ls -l'
 alias p='pwd'
 alias cls='clear'
+alias xcopy='xclip -selection clipboard -i' 
+
