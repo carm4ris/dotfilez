@@ -11,7 +11,13 @@ super + alt + minus
 	pkill -USR1 -x sxhkd # Reload sxhkd
 
 super + alt + equal
-	bspc query -N -d | xargs -I % bspc node % -B # Equalize panels
+	bspc query -N -d | xargs -I % bspc node % -B # Equalize panes
+
+Print
+    scrot 'screenshot_%Y%m%d_%H%M%S.png' -e 'mkdir -p ~/screenshots && mv $f ~/screenshots && xclip -selection clipboard -t image/png -i ~/screenshots/`ls -1 -t ~/screenshots | head -1`'
+
+Shift + Print
+    scrot -s 'screenshot_%Y%m%d_%H%M%S.png' -e 'mkdir -p ~/screenshots && mv $f ~/screenshots && xclip -selection clipboard -t image/png -i ~/screenshots/`ls -1 -t ~/screenshots | head -1`'
 
 
 ## Default config leftovers
